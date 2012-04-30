@@ -22,15 +22,19 @@
 		587A107D154DE2B100FFD5FB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		587A107F154DE2B100FFD5FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		587A1081154DE2B100FFD5FB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		587A1085154DE2B100FFD5FB /* Psychologist-Info.plist */ = {isa = PBXFileReference; path = "Psychologist-Info.plist"; sourceTree = "<group>"; };
+		587A1085154DE2B100FFD5FB /* Psychologist-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Psychologist-Info.plist"; sourceTree = "<group>"; };
 		587A1087154DE2B100FFD5FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		587A1089154DE2B100FFD5FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		587A108B154DE2B100FFD5FB /* Psychologist-Prefix.pch */ = {isa = PBXFileReference; path = "Psychologist-Prefix.pch"; sourceTree = "<group>"; };
-		587A108C154DE2B100FFD5FB /* PsychologistAppDelegate.h */ = {isa = PBXFileReference; path = PsychologistAppDelegate.h; sourceTree = "<group>"; };
+		587A108B154DE2B100FFD5FB /* Psychologist-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Psychologist-Prefix.pch"; sourceTree = "<group>"; };
+		587A108C154DE2B100FFD5FB /* PsychologistAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PsychologistAppDelegate.h; sourceTree = "<group>"; };
 		587A108D154DE2B100FFD5FB /* PsychologistAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PsychologistAppDelegate.m; sourceTree = "<group>"; };
 		587A1090154DE2B100FFD5FB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		587A1092154DE2B100FFD5FB /* PsychologistViewController.h */ = {isa = PBXFileReference; path = PsychologistViewController.h; sourceTree = "<group>"; };
+		587A1092154DE2B100FFD5FB /* PsychologistViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PsychologistViewController.h; sourceTree = "<group>"; };
 		587A1093154DE2B100FFD5FB /* PsychologistViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PsychologistViewController.m; sourceTree = "<group>"; };
+		587A109A154DE80200FFD5FB /* FaceView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaceView.h; sourceTree = "<group>"; };
+		587A109B154DE80200FFD5FB /* FaceView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceView.m; sourceTree = "<group>"; };
+		587A109C154DE80200FFD5FB /* HappinessViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HappinessViewController.h; sourceTree = "<group>"; };
+		587A109D154DE80200FFD5FB /* HappinessViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappinessViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,10 @@
 			children = (
 				587A108C154DE2B100FFD5FB /* PsychologistAppDelegate.h */,
 				587A108D154DE2B100FFD5FB /* PsychologistAppDelegate.m */,
+				587A109A154DE80200FFD5FB /* FaceView.h */,
+				587A109B154DE80200FFD5FB /* FaceView.m */,
+				587A109C154DE80200FFD5FB /* HappinessViewController.h */,
+				587A109D154DE80200FFD5FB /* HappinessViewController.m */,
 				587A108F154DE2B100FFD5FB /* MainStoryboard.storyboard */,
 				587A1092154DE2B100FFD5FB /* PsychologistViewController.h */,
 				587A1093154DE2B100FFD5FB /* PsychologistViewController.m */,
