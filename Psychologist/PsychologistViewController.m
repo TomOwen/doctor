@@ -17,13 +17,20 @@
 - (void) setAndShowDiagnosis:(int)diagnosis{
     // ? below
     //_diagnosis = diagnosis;
+    // direct segue via code
     [self performSegueWithIdentifier:@"ShowDiagnosis" sender:self];
 }
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([segue.identifier isEqualToString:@"ShowDiagnosis"]) {
         // run the sethappiness method in the ShowDiagnosis view
         [segue.destinationViewController setHappiness:self.diagnosis];
-    }
+    } else if ([segue.identifier isEqualToString:@"woosy"]) {
+        [segue.destinationViewController setHappiness:20];
+    } else if ([segue.identifier isEqualToString:@"runny"]) {
+        [segue.destinationViewController setHappiness:50]; 
+    } else if ([segue.identifier isEqualToString:@"ned"]) {
+        [segue.destinationViewController setHappiness:100]; 
+        }
 }
 - (IBAction)flying {
     [self setAndShowDiagnosis:85];

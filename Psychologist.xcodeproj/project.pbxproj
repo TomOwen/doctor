@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5816863E154F049200D0A55E /* HappinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 587A109D154DE80200FFD5FB /* HappinessViewController.m */; };
+		5816863F154F049B00D0A55E /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 587A109B154DE80200FFD5FB /* FaceView.m */; };
 		587A107E154DE2B100FFD5FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 587A107D154DE2B100FFD5FB /* UIKit.framework */; };
 		587A1080154DE2B100FFD5FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 587A107F154DE2B100FFD5FB /* Foundation.framework */; };
 		587A1082154DE2B100FFD5FB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 587A1081154DE2B100FFD5FB /* CoreGraphics.framework */; };
@@ -173,6 +175,8 @@
 				587A108A154DE2B100FFD5FB /* main.m in Sources */,
 				587A108E154DE2B100FFD5FB /* PsychologistAppDelegate.m in Sources */,
 				587A1094154DE2B100FFD5FB /* PsychologistViewController.m in Sources */,
+				5816863E154F049200D0A55E /* HappinessViewController.m in Sources */,
+				5816863F154F049B00D0A55E /* FaceView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +288,7 @@
 				587A1099154DE2B100FFD5FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
